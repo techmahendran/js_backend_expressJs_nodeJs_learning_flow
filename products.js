@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/Products", (req, res) => {
+router.get("/products", (req, res) => {
   res.json([
     { id: 1, name: "Laptop", price: 50000 },
     { id: 2, name: "Mouse", price: 500 },
